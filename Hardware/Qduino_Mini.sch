@@ -7247,7 +7247,9 @@ Standard decoupling cap</description>
 <part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF">
 <attribute name="PROD_ID" value="CAP-00868"/>
 </part>
-<part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="-SMD-A"/>
+<part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="-SMD-A">
+<attribute name="PROD_ID" value="SWCH-10651"/>
+</part>
 <part name="U3" library="Pinoccio" deviceset="MAX17048" device="DFN8" value="MAX17048">
 <attribute name="PROD_ID" value="IC-12551"/>
 </part>
@@ -7416,7 +7418,9 @@ Circuit</text>
 <instance part="C3" gate="G$1" x="-5.08" y="-33.02">
 <attribute name="PROD_ID" x="-5.08" y="-33.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="S1" gate="1" x="139.7" y="60.96" rot="R180"/>
+<instance part="S1" gate="1" x="139.7" y="60.96" rot="R180">
+<attribute name="PROD_ID" x="139.7" y="60.96" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="U3" gate="G$1" x="127" y="106.68">
 <attribute name="PROD_ID" x="127" y="106.68" size="1.27" layer="96" display="off"/>
 </instance>
