@@ -167,6 +167,7 @@
 <dimension x1="0" y1="25.4" x2="0" y2="0" x3="-3.81" y3="12.7" textsize="1.778" textratio="15" layer="51" unit="inch"/>
 <text x="5.08" y="33.02" size="1.778" layer="51" font="vector" ratio="15">All units in inches</text>
 <text x="36.7792" y="16.51" size="1.016" layer="16" ratio="15" rot="MR270" align="center">&gt;VERSION</text>
+<text x="17.0053" y="14.5161" size="0.8128" layer="21" ratio="16" rot="SR0" align="center">SJ1</text>
 </plain>
 <libraries>
 <library name="SFE LED">
