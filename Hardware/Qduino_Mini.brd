@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -163,11 +163,12 @@
 <text x="27.432" y="23.241" size="0.8128" layer="21" ratio="16" rot="SR270" align="center">OFF</text>
 <wire x1="0" y1="0" x2="38.1" y2="0" width="0.2032" layer="20"/>
 <text x="15.1892" y="-9.3726" size="1.778" layer="51">&gt;DESIGNER</text>
-<dimension x1="0" y1="25.4" x2="38.1" y2="25.4" x3="19.05" y3="29.21" textsize="1.778" textratio="15" layer="51" unit="inch"/>
-<dimension x1="0" y1="25.4" x2="0" y2="0" x3="-3.81" y3="12.7" textsize="1.778" textratio="15" layer="51" unit="inch"/>
-<text x="5.08" y="33.02" size="1.778" layer="51" font="vector" ratio="15">All units in inches</text>
+<dimension x1="0" y1="25.4" x2="38.1" y2="25.4" x3="19.05" y3="29.21" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="25.4" x2="0" y2="0" x3="-3.81" y3="12.7" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<text x="5.08" y="33.02" size="1.778" layer="47" font="vector" ratio="15">All units in inches</text>
 <text x="36.7792" y="16.51" size="1.27" layer="16" ratio="15" rot="MR270" align="center">&gt;VERSION</text>
 <text x="17.0053" y="14.5161" size="0.8128" layer="21" ratio="16" rot="SR0" align="center">SJ1</text>
+<text x="-4.1148" y="-11.8364" size="1.778" layer="51">Revised by: Brent Wilkins</text>
 </plain>
 <libraries>
 <library name="SparkFun-Passives">
@@ -433,6 +434,27 @@ We've spent an enormous amount of time creating and checking these footprints an
 <rectangle x1="-1.59385" y1="-3.6957" x2="-1.36525" y2="-3.1496" layer="31" rot="R180"/>
 <rectangle x1="-2.0701" y1="-3.6957" x2="-1.8415" y2="-3.1496" layer="31" rot="R180"/>
 <rectangle x1="-2.57175" y1="-3.6957" x2="-2.34315" y2="-3.1496" layer="31" rot="R180"/>
+</package>
+<package name="DFN-8">
+<circle x="-1.0628" y="-0.92" radius="0.070709375" width="0.127" layer="21"/>
+<smd name="P$1" x="-0.6878" y="-0.92" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$2" x="-0.2378" y="-0.92" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$3" x="0.2122" y="-0.92" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$4" x="0.6622" y="-0.92" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$5" x="0.6622" y="0.93" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$6" x="0.2122" y="0.93" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$7" x="-0.2378" y="0.93" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$8" x="-0.6878" y="0.93" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$9" x="-0.0128" y="0.005" dx="1.37" dy="0.64" layer="1"/>
+<text x="-0.8128" y="1.524" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.0668" y="-1.905" size="0.4064" layer="27">&gt;VALUE</text>
+<circle x="-1.0628" y="-0.92" radius="0.070709375" width="0.127" layer="21"/>
+<wire x1="-1.0128" y1="1.03" x2="0.9872" y2="1.03" width="0.127" layer="51"/>
+<wire x1="0.9872" y1="1.03" x2="0.9872" y2="-0.97" width="0.127" layer="51"/>
+<wire x1="0.9872" y1="-0.97" x2="-1.0128" y2="-0.97" width="0.127" layer="51"/>
+<wire x1="-1.0128" y1="-0.97" x2="-1.0128" y2="1.03" width="0.127" layer="51"/>
+<text x="-0.8128" y="1.524" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.0668" y="-1.905" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -1946,29 +1968,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="Pinoccio">
-<description>Pinoccio Board Devices</description>
-<packages>
-<package name="DFN-8">
-<circle x="-0.25" y="0.35" radius="0.070709375" width="0.127" layer="21"/>
-<wire x1="-0.2" y1="2.3" x2="1.8" y2="2.3" width="0.127" layer="51"/>
-<wire x1="1.8" y1="2.3" x2="1.8" y2="0.3" width="0.127" layer="51"/>
-<wire x1="1.8" y1="0.3" x2="-0.2" y2="0.3" width="0.127" layer="51"/>
-<wire x1="-0.2" y1="0.3" x2="-0.2" y2="2.3" width="0.127" layer="51"/>
-<smd name="P$1" x="0.125" y="0.35" dx="0.7" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$2" x="0.575" y="0.35" dx="0.7" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$3" x="1.025" y="0.35" dx="0.7" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$4" x="1.475" y="0.35" dx="0.7" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$5" x="1.475" y="2.2" dx="0.7" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$6" x="1.025" y="2.2" dx="0.7" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$7" x="0.575" y="2.2" dx="0.7" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$8" x="0.125" y="2.2" dx="0.7" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$9" x="0.8" y="1.275" dx="1.37" dy="0.64" layer="1"/>
-<text x="0" y="2.794" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.254" y="-0.635" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-</library>
 <library name="SparkFun-DiscreteSemi">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find discrete semiconductors- transistors, diodes, TRIACs, optoisolators, etc.&lt;br&gt;&lt;br&gt;
@@ -2658,7 +2657,6 @@ design rules under a new name.</description>
 <element name="U1" library="SparkFun-DigitalIC" package="QFN-44-NOPAD_1:1-LESS_PASTE" value="ATMEGA32U41:1-LESS_PASTE" x="11.43" y="12.7">
 <attribute name="PROD_ID" value="IC-10828" x="11.43" y="12.7" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$3" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="" x="16.9926" y="6.7564" rot="R270"/>
 <element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="" x="-15.5702" y="-9.4234">
 <attribute name="VERSION" value="v01" x="-15.5702" y="-9.4234" size="1.778" layer="27" display="off"/>
 <attribute name="DESIGNER" value="NAME" x="-15.5702" y="-9.4234" size="1.778" layer="27" display="off"/>
@@ -2707,8 +2705,8 @@ design rules under a new name.</description>
 <element name="S1" library="SparkFun-Electromechanical" package="SWITCH-SPST-SMD-A" value="POWER" x="32.385" y="23.495">
 <attribute name="PROD_ID" value="SWCH-10651" x="32.385" y="23.495" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U3" library="Pinoccio" package="DFN-8" value="MAX17048" x="24.765" y="12.7" rot="R180">
-<attribute name="PROD_ID" value="IC-12551" x="24.765" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="U3" library="SparkFun-DigitalIC" package="DFN-8" value="MAX17048" x="23.9522" y="11.43" rot="R180">
+<attribute name="PROD_ID" value="IC-12551" x="23.9522" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U4" library="SparkFun-PowerIC" package="SOT23-5" value="TPS78233" x="25.4" y="19.685" rot="R90">
 <attribute name="PROD_ID" value="12550" x="25.4" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2731,14 +2729,13 @@ design rules under a new name.</description>
 <element name="D1" library="SparkFun-DiscreteSemi" package="SOD-323" value="BAS16JTR" x="27.94" y="15.24" rot="R270">
 <attribute name="PROD_ID" value="DIO-09646" x="27.94" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U5" library="SparkFun-Aesthetics" package="LOGO-LARGE-SILK" value="MIGHTYQ-L-SILK" x="21.59" y="12.7" rot="MR90"/>
+<element name="U5" library="SparkFun-Aesthetics" package="LOGO-LARGE-SILK" value="MIGHTYQ-L-SILK" x="18.8214" y="12.7" rot="MR90"/>
 <element name="U6" library="SparkFun-Aesthetics" package="LOGO-SMALL-SILK" value="MIGHTYQ-S-SILK" x="10.033" y="19.177" rot="R270"/>
 <element name="SJ1" library="SparkFun-Passives" package="PAD-JUMPER-3-2OF3_NC_BY_PASTE_YES_SILK_FULL_BOX" value="" x="19.685" y="14.605" rot="SR0"/>
 <element name="R10" library="SparkFun-Resistors" package="0603-RES" value="10K" x="22.86" y="15.24" rot="R270">
 <attribute name="PROD_ID" value="RES-00824" x="22.86" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="10K" x="22.86" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$2" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="28.448" y="20.828" rot="R270"/>
 <element name="U$6" library="SparkFun-Aesthetics" package="SFE-LOGO-FLAME-COPPER" value="" x="34.417" y="22.352" rot="MR90"/>
 <element name="R11" library="SparkFun-Passives" package="0603-RES" value="4.7K" x="4.953" y="5.6515" rot="R90">
 <attribute name="PROD_ID" value="RES-07857" x="4.953" y="5.6515" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2755,6 +2752,8 @@ design rules under a new name.</description>
 <element name="Y1" library="SparkFun-FreqCtrl" package="RESONATOR-SMD" value="8MHZ" x="10.8204" y="6.2484">
 <attribute name="PROD_ID" value="XTAL-08895" x="10.8204" y="6.2484" size="1.778" layer="27" display="off"/>
 </element>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="16.7386" y="6.5786" rot="R270"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="28.2956" y="21.1328" rot="R270"/>
 </elements>
 <signals>
 <signal name="D-">
@@ -3358,7 +3357,6 @@ design rules under a new name.</description>
 <wire x1="36.83" y1="9.271" x2="33.0708" y2="13.0302" width="0.3048" layer="16"/>
 <wire x1="33.0708" y1="13.0302" x2="33.0708" y2="19.1262" width="0.3048" layer="16"/>
 <wire x1="33.0708" y1="19.1262" x2="33.9725" y2="20.0279" width="0.3048" layer="16"/>
-<wire x1="23.749" y1="12.359" x2="24.181" y2="12.359" width="0.2032" layer="1"/>
 <wire x1="25.7175" y1="8.89" x2="25.7175" y2="9.8425" width="0.3048" layer="1"/>
 <wire x1="25.7175" y1="9.8425" x2="26.67" y2="10.795" width="0.3048" layer="1"/>
 <wire x1="26.67" y1="10.795" x2="26.67" y2="11.557" width="0.3048" layer="1"/>
@@ -3382,6 +3380,11 @@ design rules under a new name.</description>
 <wire x1="24.5872" y1="13.208" x2="24.19" y2="12.8108" width="0.2032" layer="1"/>
 <wire x1="24.19" y1="12.8108" x2="24.19" y2="12.35" width="0.2032" layer="1"/>
 <wire x1="24.181" y1="12.359" x2="24.19" y2="12.35" width="0.2032" layer="1"/>
+<wire x1="24.181" y1="12.359" x2="24.181" y2="12.35" width="0.2032" layer="1"/>
+<wire x1="24.19" y1="12.6492" x2="23.74" y2="12.6492" width="0.2032" layer="1"/>
+<wire x1="23.74" y1="12.6492" x2="23.74" y2="12.35" width="0.2032" layer="1"/>
+<wire x1="24.2062" y1="12.6492" x2="24.19" y2="12.6492" width="0.2032" layer="1"/>
+<wire x1="24.19" y1="12.6492" x2="24.19" y2="12.35" width="0.2032" layer="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="LED3" pad="A"/>
