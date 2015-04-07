@@ -2168,10 +2168,10 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="RES-08698" x="13.335" y="31.115" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C2" library="SparkFun-Passives" package="0603-CAP" value="4.7uF" x="8.255" y="32.385" rot="R270">
-<attribute name="PROD_ID" value="CAP-10300" x="8.255" y="32.385" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="CAP-08280" x="8.255" y="32.385" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C1" library="SparkFun-Passives" package="0603-CAP" value="4.7uF" x="9.525" y="32.385" rot="R90">
-<attribute name="PROD_ID" value="CAP-10300" x="9.525" y="32.385" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="CAP-08280" x="9.525" y="32.385" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C4" library="SparkFun-Passives" package="0603-CAP" value="1uF" x="15.875" y="2.54" rot="R270">
 <attribute name="PROD_ID" value="CAP-00868" x="15.875" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>

@@ -14110,10 +14110,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="RES-08698"/>
 </part>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="4.7uF">
-<attribute name="PROD_ID" value="CAP-10300"/>
+<attribute name="PROD_ID" value="CAP-08280"/>
 </part>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="4.7uF">
-<attribute name="PROD_ID" value="CAP-10300"/>
+<attribute name="PROD_ID" value="CAP-08280"/>
 </part>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF">
 <attribute name="PROD_ID" value="CAP-00868"/>
