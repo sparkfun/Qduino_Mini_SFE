@@ -159,7 +159,7 @@
 <text x="9.8552" y="-8.6106" size="1.778" layer="51">&gt;DESIGNER</text>
 <text x="14.478" y="37.1602" size="1.27" layer="16" ratio="15" rot="SMR0" align="center">&gt;VERSION</text>
 <text x="-9.4488" y="-11.0744" size="1.778" layer="51">Revised by: Brent Wilkins</text>
-<text x="2.54" y="29.21" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="top-center">D15</text>
+<text x="2.3622" y="29.21" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="top-center">D15</text>
 <text x="2.54" y="26.67" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="top-center">D16</text>
 <text x="2.54" y="24.13" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="top-center">D17</text>
 <text x="2.54" y="21.59" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="top-center">RST</text>
