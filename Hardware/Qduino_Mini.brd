@@ -1920,36 +1920,33 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="Spark">
+<library name="Testing">
 <packages>
-<package name="PLCC4-2MM-RGB">
-<description>PLCC4 2MM RGB LED package</description>
-<smd name="GREEN" x="-0.55" y="0.75" dx="1" dy="0.8" layer="1" rot="R270"/>
-<smd name="RED" x="0.55" y="0.75" dx="1" dy="0.8" layer="1" rot="R270"/>
-<smd name="CA" x="0.55" y="-0.75" dx="1" dy="0.8" layer="1" rot="R270"/>
-<smd name="BLUE" x="-0.55" y="-0.75" dx="1" dy="0.8" layer="1" rot="R270"/>
-<wire x1="-1" y1="-1" x2="-1" y2="1" width="0.05" layer="51"/>
-<wire x1="-1" y1="1" x2="1" y2="1" width="0.05" layer="51"/>
-<wire x1="1" y1="1" x2="1" y2="-0.6" width="0.05" layer="51"/>
-<wire x1="1" y1="-0.6" x2="1" y2="-1" width="0.05" layer="51"/>
-<wire x1="1" y1="-1" x2="0.6" y2="-1" width="0.05" layer="51"/>
-<wire x1="0.6" y1="-1" x2="-1" y2="-1" width="0.05" layer="51"/>
-<wire x1="0" y1="0.8" x2="-0.8" y2="0.7" width="0.05" layer="51"/>
-<wire x1="-0.8" y1="0.7" x2="-0.9" y2="0" width="0.05" layer="51"/>
-<wire x1="-0.9" y1="0" x2="-0.8" y2="-0.7" width="0.05" layer="51"/>
-<wire x1="-0.8" y1="-0.7" x2="0" y2="-0.8" width="0.05" layer="51"/>
-<wire x1="0" y1="-0.8" x2="0.8" y2="-0.7" width="0.05" layer="51"/>
-<wire x1="0.8" y1="-0.7" x2="0.9" y2="0" width="0.05" layer="51"/>
-<wire x1="0.9" y1="0" x2="0.8" y2="0.7" width="0.05" layer="51"/>
-<wire x1="0.8" y1="0.7" x2="0" y2="0.8" width="0.05" layer="51"/>
-<wire x1="1" y1="-0.6" x2="0.6" y2="-1" width="0.05" layer="51"/>
-<wire x1="-1.1508" y1="0.9746" x2="-1.1508" y2="-0.9746" width="0.1" layer="21"/>
-<wire x1="1.1508" y1="0.9746" x2="1.1508" y2="-0.5746" width="0.1" layer="21"/>
-<circle x="1.1938" y="-0.9398" radius="0.0254" width="0.127" layer="21"/>
-<text x="0.1016" y="-0.635" size="0.381" layer="51" font="vector" ratio="10">CA</text>
-<text x="0.3048" y="0.254" size="0.381" layer="51" font="vector" ratio="10">R</text>
-<text x="-0.7112" y="-0.635" size="0.381" layer="51" font="vector" ratio="10">B</text>
-<text x="-0.7112" y="0.254" size="0.381" layer="51" font="vector" ratio="10">G</text>
+<package name="P-LCC-4-3">
+<description>&lt;h3&gt;Everlight Red/Green/Blue LED&lt;/h3&gt;
+67-23/R6GHBHC-B01/2T &lt;b&gt;||&lt;/b&gt; 67-23/R6GHBH-B01</description>
+<wire x1="-1.4" y1="-1.75" x2="1.4" y2="-1.75" width="0.2032" layer="51"/>
+<wire x1="1.4" y1="-1.75" x2="1.4" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="1.4" y1="1.75" x2="-1.4" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="-1.4" y1="1.75" x2="-1.4" y2="-1.75" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="1.1" width="0.2032" layer="51"/>
+<smd name="2" x="-0.725" y="1.7" dx="0.75" dy="1.8" layer="1"/>
+<smd name="1" x="0.725" y="1.7" dx="0.75" dy="1.8" layer="1"/>
+<smd name="4" x="0.725" y="-1.7" dx="0.75" dy="1.8" layer="1"/>
+<smd name="3" x="-0.725" y="-1.7" dx="0.75" dy="1.8" layer="1"/>
+<text x="2.9438" y="-2.4534" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.427" y="-2.4518" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-1.4" y1="0.508" x2="-1.4" y2="-0.508" width="0.2032" layer="21"/>
+<wire x1="-0.1016" y1="1.6002" x2="0.1016" y2="1.6002" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.508" x2="1.4" y2="-0.508" width="0.2032" layer="21"/>
+<wire x1="-0.1016" y1="-1.75" x2="0.1016" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="1.3598" y1="1.1662" x2="0.8098" y2="1.7162" width="0.2032" layer="51"/>
+<polygon width="0.127" layer="21">
+<vertex x="0" y="0"/>
+<vertex x="0.5588" y="0" curve="90"/>
+<vertex x="0" y="0.5588"/>
+</polygon>
+<circle x="0" y="0" radius="0.55764375" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -2230,8 +2227,8 @@ design rules under a new name.</description>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="14.605" y="21.59"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="3.175" y="34.29" rot="MR0"/>
-<element name="D2" library="Spark" package="PLCC4-2MM-RGB" value="" x="12.065" y="29.21" rot="R90"/>
-<element name="D3" library="Spark" package="PLCC4-2MM-RGB" value="" x="8.255" y="29.21" rot="R90"/>
+<element name="D2" library="Testing" package="P-LCC-4-3" value="" x="12.065" y="29.21" rot="R90"/>
+<element name="D3" library="Testing" package="P-LCC-4-3" value="" x="8.255" y="29.21" rot="R90"/>
 <element name="R1" library="SparkFun-Passives" package="0603-ARV" value="330" x="12.065" y="26.67"/>
 <element name="R2" library="SparkFun-Passives" package="0603-ARV" value="330" x="8.255" y="26.67"/>
 <element name="JP3" library="SparkFun-Connectors" package="1X12" value="" x="19.05" y="1.27" rot="MR90"/>
@@ -2914,8 +2911,8 @@ design rules under a new name.</description>
 <contactref element="C7" pad="1"/>
 <contactref element="R11" pad="2"/>
 <contactref element="R12" pad="2"/>
-<contactref element="D2" pad="CA"/>
-<contactref element="D3" pad="CA"/>
+<contactref element="D2" pad="4"/>
+<contactref element="D3" pad="4"/>
 <contactref element="JP3" pad="1"/>
 <via x="20.32" y="1.27" extent="1-16" drill="0.6"/>
 <wire x1="19.05" y1="1.27" x2="20.32" y2="1.27" width="0.2032" layer="1"/>
@@ -2934,11 +2931,11 @@ design rules under a new name.</description>
 <via x="14.478" y="5.969" extent="1-16" drill="0.381"/>
 <wire x1="14.478" y1="5.969" x2="14.478" y2="10.668" width="0.2032" layer="16"/>
 <wire x1="14.478" y1="10.668" x2="14.986" y2="11.176" width="0.2032" layer="16"/>
-<wire x1="12.815" y1="29.76" x2="13.335" y2="29.76" width="0.2032" layer="1"/>
+<wire x1="13.765" y1="29.935" x2="13.335" y2="29.76" width="0.2032" layer="1"/>
 <wire x1="13.335" y1="29.76" x2="14.932" y2="29.76" width="0.2032" layer="1"/>
 <wire x1="14.932" y1="29.76" x2="15.24" y2="29.452" width="0.2032" layer="1"/>
 <wire x1="13.335" y1="32.004" x2="13.335" y2="29.76" width="0.2032" layer="1"/>
-<wire x1="9.005" y1="29.76" x2="9.313" y2="29.76" width="0.2032" layer="1"/>
+<wire x1="9.955" y1="29.935" x2="9.313" y2="29.76" width="0.2032" layer="1"/>
 <wire x1="9.313" y1="29.76" x2="10.414" y2="30.861" width="0.2032" layer="1"/>
 <wire x1="12.573" y1="12.0015" x2="12.573" y2="12.8905" width="0.2032" layer="1"/>
 <wire x1="12.573" y1="12.8905" x2="11.71575" y2="13.74775" width="0.2032" layer="1"/>
@@ -3341,38 +3338,38 @@ design rules under a new name.</description>
 <wire x1="12.627890625" y1="14.605" x2="12.16570625" y2="15.067184375" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$34">
-<contactref element="D2" pad="GREEN"/>
+<contactref element="D2" pad="1"/>
 <contactref element="R1" pad="7"/>
 <wire x1="11.665" y1="27.295" x2="11.665" y2="28.31" width="0.2032" layer="1"/>
-<wire x1="11.665" y1="28.31" x2="11.315" y2="28.66" width="0.2032" layer="1"/>
+<wire x1="11.665" y1="28.31" x2="10.365" y2="29.935" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$35">
-<contactref element="D3" pad="RED"/>
+<contactref element="D3" pad="3"/>
 <contactref element="R2" pad="8"/>
-<wire x1="7.505" y1="29.76" x2="6.773" y2="29.76" width="0.2032" layer="1"/>
+<wire x1="9.955" y1="28.485" x2="6.773" y2="29.76" width="0.2032" layer="1"/>
 <wire x1="6.773" y1="29.76" x2="6.604" y2="29.591" width="0.2032" layer="1"/>
 <wire x1="6.604" y1="29.591" x2="6.604" y2="27.746" width="0.2032" layer="1"/>
 <wire x1="6.604" y1="27.746" x2="7.055" y2="27.295" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$37">
-<contactref element="D3" pad="GREEN"/>
+<contactref element="D3" pad="1"/>
 <contactref element="R2" pad="7"/>
 <wire x1="7.855" y1="27.295" x2="7.855" y2="28.31" width="0.2032" layer="1"/>
-<wire x1="7.855" y1="28.31" x2="7.505" y2="28.66" width="0.2032" layer="1"/>
+<wire x1="7.855" y1="28.31" x2="6.555" y2="29.935" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$1">
-<contactref element="D2" pad="RED"/>
+<contactref element="D2" pad="3"/>
 <contactref element="R1" pad="8"/>
-<wire x1="11.315" y1="29.76" x2="10.583" y2="29.76" width="0.2032" layer="1"/>
+<wire x1="13.765" y1="28.485" x2="10.583" y2="29.76" width="0.2032" layer="1"/>
 <wire x1="10.583" y1="29.76" x2="10.414" y2="29.591" width="0.2032" layer="1"/>
 <wire x1="10.414" y1="29.591" x2="10.414" y2="27.746" width="0.2032" layer="1"/>
 <wire x1="10.414" y1="27.746" x2="10.865" y2="27.295" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$32">
-<contactref element="D3" pad="BLUE"/>
+<contactref element="D3" pad="2"/>
 <contactref element="R2" pad="6"/>
 <wire x1="8.655" y1="27.295" x2="8.655" y2="28.31" width="0.2032" layer="1"/>
-<wire x1="8.655" y1="28.31" x2="9.005" y2="28.66" width="0.2032" layer="1"/>
+<wire x1="8.655" y1="28.31" x2="6.555" y2="28.485" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="D5" pad="C"/>
@@ -3393,9 +3390,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$2">
 <contactref element="R1" pad="6"/>
-<contactref element="D2" pad="BLUE"/>
+<contactref element="D2" pad="2"/>
 <wire x1="12.465" y1="27.295" x2="12.465" y2="28.31" width="0.2032" layer="1"/>
-<wire x1="12.465" y1="28.31" x2="12.815" y2="28.66" width="0.2032" layer="1"/>
+<wire x1="12.465" y1="28.31" x2="10.365" y2="28.485" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="D4" pad="C"/>
