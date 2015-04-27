@@ -13217,65 +13217,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED-YELLOW" prefix="D" uservalue="yes">
-<description>Yellow SMD LEDs&lt;br&gt;
-LilyPad 1206- DIO-09909&lt;br&gt;
-0603- DIO-09003&lt;br&gt;
-"SMART" means more efficient and expensive</description>
-<gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="LILYPAD" package="LED-1206">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-09909"/>
-<attribute name="VALUE" value="Yellow" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="0603" package="LED-0603">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-09003"/>
-<attribute name="VALUE" value="Yellow" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="LARGE" package="LED-1206">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-00820" constant="no"/>
-<attribute name="VALUE" value="YELLOW" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="0603-SMART" package="LED-0603">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-11230" constant="no"/>
-<attribute name="VALUE" value="Yellow" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="LED-GREEN" prefix="D" uservalue="yes">
 <description>&lt;B&gt;Various green LEDs&lt;br&gt;&lt;br&gt;&lt;/B&gt;
 Green LEDs used in SFE Production&lt;br&gt;&lt;br&gt;
@@ -13643,9 +13584,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="P+4" library="SFE Aesthetics" deviceset="VCC" device=""/>
 <part name="GND6" library="SFE Aesthetics" deviceset="GND" device=""/>
-<part name="D5" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow">
-<attribute name="PROD_ID" value="DIO-09003"/>
-</part>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND14" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND17" library="SparkFun" deviceset="GND" device=""/>
@@ -13659,7 +13597,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="GND12" library="SFE Aesthetics" deviceset="GND" device=""/>
-<part name="GND13" library="SFE Aesthetics" deviceset="GND" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="2.0KOHM1/10W5%(0603)" device="" value="2.0k"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="22">
 <attribute name="PROD_ID" value="RES-08698"/>
@@ -13806,9 +13743,6 @@ Circuit</text>
 </instance>
 <instance part="P+4" gate="1" x="73.66" y="60.96"/>
 <instance part="GND6" gate="1" x="73.66" y="30.48"/>
-<instance part="D5" gate="G$1" x="86.36" y="53.34">
-<attribute name="PROD_ID" x="86.36" y="53.34" size="1.27" layer="96" display="off"/>
-</instance>
 <instance part="GND5" gate="1" x="45.72" y="-40.64"/>
 <instance part="GND14" gate="1" x="73.66" y="96.52"/>
 <instance part="GND17" gate="1" x="2.54" y="96.52"/>
@@ -13823,7 +13757,6 @@ Circuit</text>
 <instance part="FRAME2" gate="G$1" x="-86.36" y="-50.8"/>
 <instance part="FRAME2" gate="V" x="60.96" y="-50.8"/>
 <instance part="GND12" gate="1" x="22.86" y="-40.64"/>
-<instance part="GND13" gate="1" x="86.36" y="30.48"/>
 <instance part="R5" gate="G$1" x="63.5" y="93.98" rot="R90"/>
 <instance part="R3" gate="G$1" x="25.4" y="2.54" rot="R180">
 <attribute name="PROD_ID" x="25.4" y="2.54" size="1.27" layer="96" rot="R180" display="off"/>
@@ -13908,7 +13841,6 @@ Circuit</text>
 <instance part="R1" gate="C" x="22.86" y="40.64" rot="R90">
 <attribute name="PROD_ID" x="22.86" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R1" gate="D" x="86.36" y="40.64" rot="R90"/>
 <instance part="R2" gate="A" x="55.88" y="40.64" rot="R90"/>
 <instance part="R2" gate="B" x="63.5" y="40.64" rot="R90"/>
 <instance part="R2" gate="C" x="48.26" y="40.64" rot="R90">
@@ -14082,11 +14014,6 @@ Circuit</text>
 <wire x1="-38.1" y1="-20.32" x2="-40.64" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-38.1" y="-20.32" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="GND13" gate="1" pin="GND"/>
-<pinref part="R1" gate="D" pin="1"/>
-<wire x1="86.36" y1="35.56" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -14326,12 +14253,6 @@ Circuit</text>
 <wire x1="-71.12" y1="-22.86" x2="-73.66" y2="-22.86" width="0.1524" layer="91"/>
 <label x="-73.66" y="-22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JP4" gate="G$1" pin="12"/>
-</segment>
-<segment>
-<pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="86.36" y1="55.88" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
-<label x="88.9" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -14737,13 +14658,6 @@ Circuit</text>
 <wire x1="60.96" y1="50.8" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="48.26" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="48.26" x2="63.5" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="D5" gate="G$1" pin="C"/>
-<pinref part="R1" gate="D" pin="2"/>
-<wire x1="86.36" y1="45.72" x2="86.36" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
