@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -13752,7 +13752,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="38.1" y="119.38" size="1.778" layer="97" align="center">Set for 100mA charging</text>
-<text x="0" y="15.24" size="2.54" layer="97" align="center">USB BUS</text>
+<text x="12.7" y="15.24" size="2.54" layer="97" font="vector" align="center">USB BUS
+(USB spec voltages)</text>
 <text x="60.96" y="15.24" size="2.54" layer="97" align="center">Resonator</text>
 <text x="53.34" y="73.66" size="2.54" layer="97" align="center">Status LEDs</text>
 <text x="84.328" y="-39.37" size="2.54" layer="94" ratio="5">&gt;DESIGNER</text>
