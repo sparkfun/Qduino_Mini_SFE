@@ -10,7 +10,7 @@
          },
          "platforms":[
             {
-               "name":"Qduino Mini",
+               "name":"Qtechknow Boards",
                "architecture":"avr",
                "version":"1.0.0",
                "category":"Qtechknow",
