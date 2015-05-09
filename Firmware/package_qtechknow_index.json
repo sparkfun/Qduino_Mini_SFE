@@ -1,8 +1,8 @@
 {
    "packages":[
       {
-         "name":"Qtechknow Qduino Mini",
-         "maintainer":"SparkFun Electronics",
+         "name":"Qduino Mini",
+         "maintainer":"Qtechknow",
          "websiteURL":"https://SparkFun.com",
          "email":"TechSupport@SparkFun.com",
          "help":{
@@ -10,20 +10,20 @@
          },
          "platforms":[
             {
-               "name":"Qtechknow Qduino Mini",
+               "name":"Qduino Mini",
                "architecture":"avr",
                "version":"1.0.0",
                "category":"Qtechknow",
-               "url":"https://github.com/sparkfun/Qduino_Mini/blob/master/Firmware/qduinomini.tar.bz2",
+               "url":"https://github.com/BrentWilkins/quicktest/blob/master/qduinomini.tar.bz2?raw=true",
                "archiveFileName":"qduinomini.tar.bz2",
                "checksum":"SHA-256:01e1f55ecb4a8c7e598df719d30e94dbd617cf87391e27f1af906bb66aeb7994",
                "size":"24925",
                "help":{
-                  "online":"https://forums.adafruit.com"
+                  "online":"https://forums.sparkfun.com"
                },
                "boards":[
                   {
-                     "name":"Qtechknow Qduino Mini"
+                     "name":"Qduino Mini"
                   }
                ],
                "toolsDependencies":[
