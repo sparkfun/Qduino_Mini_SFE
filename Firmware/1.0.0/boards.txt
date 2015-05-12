@@ -5,7 +5,7 @@
 # * https://github.com/arduino/Arduino/wiki/Arduino-Hardware-Cores-migration-guide-from-1.0-to-1.6
 #
 
-qduinomini.name=Qtechknow Qduino Mini
+qduinomini.name=Qduino Mini
 qduinomini.build.board=AVR_QDUINOMINI
 qduinomini.build.vid.0=0x1B4F
 qduinomini.build.pid.0=0x9203
@@ -22,7 +22,7 @@ qduinomini.upload.wait_for_upload_port=true
 
 qduinomini.bootloader.low_fuses=0xFF
 qduinomini.bootloader.high_fuses=0xD8
-qduinomini.bootloader.extended_fuses=0xFE
+qduinomini.bootloader.extended_fuses=0xFC
 qduinomini.bootloader.file=caterina/Caterina-qduinomini.hex
 qduinomini.bootloader.unlock_bits=0x3F
 qduinomini.bootloader.lock_bits=0x2F
