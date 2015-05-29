@@ -2197,7 +2197,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="RES-07828" x="16.51" y="18.7325" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="100k" x="16.51" y="18.7325" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="Q1" library="SparkFun-DiscreteSemi" package="SOT23-3" value="PFET" x="3.81" y="32.385" rot="R90">
+<element name="Q1" library="SparkFun-DiscreteSemi" package="SOT23-3" value="ZXMP6A13FTA" x="3.81" y="32.385" rot="R90">
 <attribute name="PROD_ID" value="TRANS-08285" x="3.81" y="32.385" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$4" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="" x="10.16" y="28.321" rot="MR0"/>
@@ -2228,12 +2228,12 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="DIO-12986" x="13.335" y="28.2575" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D3" library="Testing" package="P-LCC-4-3" value="" x="6.985" y="28.2575" rot="R90">
-<attribute name="PROD_ID" value="DIO-12986" x="6.985" y="28.2575" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="DIO-12985" x="6.985" y="28.2575" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R1" library="SparkFun-Passives" package="0603-ARV" value="330" x="13.335" y="25.4">
+<element name="R1" library="SparkFun-Passives" package="0603-ARV" value="1KΩ" x="13.335" y="25.4">
 <attribute name="PROD_ID" value="RES-12985" x="13.335" y="25.4" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R2" library="SparkFun-Passives" package="0603-ARV" value="330" x="6.985" y="25.4">
+<element name="R2" library="SparkFun-Passives" package="0603-ARV" value="1KΩ" x="6.985" y="25.4">
 <attribute name="PROD_ID" value="RES-12985" x="6.985" y="25.4" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP3" library="SparkFun-Connectors" package="1X12" value="" x="19.05" y="1.27" rot="MR90">
@@ -2244,7 +2244,7 @@ design rules under a new name.</description>
 </element>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1@1" value="SFE_LOGO_FLAME.1_INCH" x="6.35" y="11.43"/>
 <element name="FID1" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="0.635" y="36.83"/>
-<element name="FID2" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="5.334" y="0.635"/>
+<element name="FID2" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="16.51" y="0.7112"/>
 <element name="J1" library="SparkFun-Connectors" package="JST-2-SMD" value="LiPo" x="10.16" y="3.81" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CONN-11443" x="10.16" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOP_NEG" value="-" x="12.0777" y="7.8994" size="1.27" layer="21" font="vector" ratio="15" rot="R180" align="center-right"/>
@@ -2327,11 +2327,7 @@ design rules under a new name.</description>
 <contactref element="JP2" pad="SHIELD2"/>
 <contactref element="JP2" pad="GND1"/>
 <contactref element="Y1" pad="2"/>
-<wire x1="14.615" y1="36.1" x2="18.3" y2="36.1" width="0.254" layer="1"/>
 <contactref element="JP3" pad="2"/>
-<wire x1="10.93" y1="36.1" x2="11.081" y2="36.1" width="0.2032" layer="1"/>
-<wire x1="11.081" y1="36.1" x2="11.43" y2="36.449" width="0.2032" layer="1"/>
-<wire x1="11.43" y1="36.449" x2="14.266" y2="36.449" width="0.2032" layer="1"/>
 <wire x1="14.266" y1="36.449" x2="14.615" y2="36.1" width="0.2032" layer="1"/>
 <contactref element="R2" pad="5"/>
 <wire x1="15.9051" y1="9.21" x2="15.555" y2="9.21" width="0.2032" layer="1"/>
@@ -2472,6 +2468,8 @@ design rules under a new name.</description>
 <wire x1="0.5334" y1="34.8234" x2="0.635" y2="34.7218" width="0.1524" layer="1"/>
 <wire x1="0.635" y1="34.7218" x2="0.9652" y2="34.7218" width="0.1524" layer="1"/>
 <wire x1="0.9652" y1="34.7218" x2="1.397" y2="34.29" width="0.1524" layer="1"/>
+<via x="10.8712" y="36.1442" extent="1-16" drill="0.254"/>
+<via x="18.288" y="36.1188" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="!RST">
 <contactref element="U1" pad="13"/>
@@ -3314,12 +3312,6 @@ design rules under a new name.</description>
 <wire x1="11.635" y1="27.5325" x2="11.635" y2="26.525" width="0.2032" layer="1"/>
 <wire x1="11.635" y1="26.525" x2="12.135" y2="26.025" width="0.2032" layer="1"/>
 </signal>
-<signal name="N$9">
-<via x="10.8712" y="36.1442" extent="1-16" drill="0.254"/>
-</signal>
-<signal name="N$10">
-<via x="18.288" y="36.1188" extent="1-16" drill="0.254"/>
-</signal>
 </signals>
 <errors>
 <approved hash="7,39,24d3cc4b12c500a4"/>
@@ -4087,8 +4079,8 @@ design rules under a new name.</description>
 <approved hash="4,1,f709c22ebadd4b33"/>
 <approved hash="4,1,f906100dd3fe0634"/>
 <approved hash="19,1,47051f2d1c3a4412"/>
-<approved hash="19,1,4539286152b3ddfe"/>
 <approved hash="19,1,99ee809758764ab2"/>
+<approved hash="19,1,4539286152b3ddfe"/>
 <approved hash="19,1,77ea4e7f6bac87a8"/>
 <approved hash="4,1,8388f2ed2c5f4663"/>
 <approved hash="19,1,ca54737cc4c00078"/>

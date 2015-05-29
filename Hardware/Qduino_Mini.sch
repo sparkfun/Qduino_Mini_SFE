@@ -13635,7 +13635,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R6" library="SparkFun-Resistors" deviceset="100KOHM-1/10W-1%(0603)" device="" value="100k"/>
 <part name="P+6" library="SFE Aesthetics" deviceset="VCC" device=""/>
 <part name="GND20" library="SparkFun" deviceset="GND" device=""/>
-<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device="" value="PFET"/>
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device="" value="ZXMP6A13FTA"/>
 <part name="GND21" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
@@ -13663,13 +13663,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="D3" library="Testing" deviceset="0.13_RGB_LED" device="PLCC">
-<attribute name="PROD_ID" value="DIO-12986"/>
+<attribute name="PROD_ID" value="DIO-12985"/>
 </part>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="330">
+<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="1KΩ">
 <attribute name="PROD_ID" value="RES-12985"/>
 </part>
-<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="330">
+<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="1KΩ">
 <attribute name="PROD_ID" value="RES-12985"/>
 </part>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M12" device="PTH">
@@ -13797,9 +13797,7 @@ Circuit</text>
 <instance part="R6" gate="G$1" x="116.84" y="43.18" rot="R90"/>
 <instance part="P+6" gate="1" x="147.32" y="10.16"/>
 <instance part="GND20" gate="1" x="147.32" y="-7.62"/>
-<instance part="Q1" gate="G$1" x="137.16" y="50.8" smashed="yes" rot="MR180">
-<attribute name="NAME" x="138.43" y="48.006" size="1.778" layer="95" rot="MR180"/>
-</instance>
+<instance part="Q1" gate="G$1" x="137.16" y="50.8" rot="MR180"/>
 <instance part="GND21" gate="1" x="116.84" y="33.02"/>
 <instance part="GND1" gate="1" x="111.76" y="-7.62"/>
 <instance part="GND9" gate="1" x="119.38" y="-7.62" smashed="yes">
@@ -13807,6 +13805,7 @@ Circuit</text>
 </instance>
 <instance part="D1" gate="G$1" x="127" y="63.5" smashed="yes">
 <attribute name="NAME" x="129.54" y="63.9826" size="1.778" layer="95"/>
+<attribute name="VALUE" x="124.714" y="59.9186" size="1.778" layer="96"/>
 </instance>
 <instance part="U5" gate="G$1" x="78.74" y="0"/>
 <instance part="GND8" gate="1" x="48.26" y="83.82"/>
