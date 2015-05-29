@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -13189,6 +13189,32 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="P-LCC-4-3">
+<description>&lt;h3&gt;Everlight Red/Green/Blue LED&lt;/h3&gt;
+67-23/R6GHBHC-B01/2T &lt;b&gt;||&lt;/b&gt; 67-23/R6GHBH-B01</description>
+<wire x1="-1.4" y1="-1.75" x2="1.4" y2="-1.75" width="0.2032" layer="51"/>
+<wire x1="1.4" y1="-1.75" x2="1.4" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="1.4" y1="1.75" x2="-1.4" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="-1.4" y1="1.75" x2="-1.4" y2="-1.75" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="1.1" width="0.2032" layer="51"/>
+<smd name="2" x="-0.725" y="1.7" dx="0.75" dy="1.8" layer="1"/>
+<smd name="1" x="0.725" y="1.7" dx="0.75" dy="1.8" layer="1"/>
+<smd name="4" x="0.725" y="-1.7" dx="0.75" dy="1.8" layer="1"/>
+<smd name="3" x="-0.725" y="-1.7" dx="0.75" dy="1.8" layer="1"/>
+<text x="2.9438" y="-2.4534" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.427" y="-2.4518" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-1.4" y1="0.508" x2="-1.4" y2="-0.508" width="0.2032" layer="21"/>
+<wire x1="-0.1016" y1="1.75" x2="0.1016" y2="1.75" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.508" x2="1.4" y2="-0.508" width="0.2032" layer="21"/>
+<wire x1="-0.1016" y1="-1.75" x2="0.1016" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="1.3598" y1="1.1662" x2="0.8098" y2="1.7162" width="0.2032" layer="51"/>
+<polygon width="0.127" layer="21">
+<vertex x="0" y="0"/>
+<vertex x="0.5588" y="0" curve="90"/>
+<vertex x="0" y="0.5588"/>
+</polygon>
+<circle x="0" y="0" radius="0.55764375" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LED">
@@ -13214,6 +13240,76 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-2.921" y="-2.413"/>
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
+</symbol>
+<symbol name="LED-RGB">
+<description>67-23/R6GHBHC-B01/2T</description>
+<wire x1="6.35" y1="1.778" x2="5.08" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-0.254" x2="3.81" y2="1.778" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-0.254" x2="5.08" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-0.254" x2="3.81" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="6.35" y1="1.778" x2="3.81" y2="1.778" width="0.254" layer="94"/>
+<wire x1="3.048" y1="1.524" x2="2.159" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.762" x2="2.921" y2="-0.127" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.778" x2="0" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.254" x2="-1.27" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-0.254" x2="0" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.254" x2="-1.27" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.778" x2="-1.27" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="1.524" x2="-2.921" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.762" x2="-2.159" y2="-0.127" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="1.778" x2="-5.08" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-0.254" x2="-6.35" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-0.254" x2="-5.08" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-0.254" x2="-6.35" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.778" x2="-6.35" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-7.112" y1="1.524" x2="-8.001" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="0.762" x2="-7.239" y2="-0.127" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<circle x="-5.08" y="2.54" radius="0.1796" width="0.254" layer="94"/>
+<circle x="0" y="2.54" radius="0.1796" width="0.254" layer="94"/>
+<text x="-2.54" y="3.302" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="5.461" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="RED" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="GREEN" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="BLUE" x="-5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="ANODE" x="-5.08" y="5.08" visible="off" length="middle" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="2.032" y="1.016"/>
+<vertex x="1.778" y="0.254"/>
+<vertex x="2.54" y="0.508"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="2.794" y="0.254"/>
+<vertex x="2.54" y="-0.508"/>
+<vertex x="3.302" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.048" y="1.016"/>
+<vertex x="-3.302" y="0.254"/>
+<vertex x="-2.54" y="0.508"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-2.286" y="0.254"/>
+<vertex x="-2.54" y="-0.508"/>
+<vertex x="-1.778" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-8.128" y="1.016"/>
+<vertex x="-8.382" y="0.254"/>
+<vertex x="-7.62" y="0.508"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-7.366" y="0.254"/>
+<vertex x="-7.62" y="-0.508"/>
+<vertex x="-6.858" y="-0.254"/>
+</polygon>
+<text x="-7.747" y="-0.762" size="0.8128" layer="96" font="vector" rot="R270">BLUE</text>
+<text x="-2.667" y="-0.762" size="0.8128" layer="96" font="vector" rot="R270">GREEN</text>
+<text x="2.413" y="-0.762" size="0.8128" layer="96" font="vector" rot="R270">RED</text>
+<text x="-5.461" y="2.794" size="0.8128" layer="96" font="vector" rot="R90">CA</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -13272,6 +13368,88 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-11076" constant="no"/>
 <attribute name="VALUE" value="Green" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0.13_RGB_LED" prefix="D" uservalue="yes">
+<description>&lt;h3&gt;Everlight Red/Green/Blue LED&lt;/h3&gt;
+67-23/R6GHBHC-B01/2T &lt;b&gt;||&lt;/b&gt; 67-23/R6GHBH-B01&lt;br /&gt;
+&lt;table width="100%"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td width="50%"&gt;&lt;strong&gt;Size&lt;/strong&gt;&lt;/td&gt;
+						&lt;td&gt;3.2*2.8*1.9mm&lt;/td&gt;
+					&lt;/tr&gt;
+                                        &lt;tr&gt;
+                                                &lt;td width="50%"&gt;&lt;strong&gt;Mounting Type&lt;/strong&gt;&lt;/td&gt;
+                                                &lt;td&gt;SMD Full-Color LED PLCC4&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                                &lt;td width="50%"&gt;&lt;strong&gt;Emitting Color&lt;/strong&gt;&lt;/td&gt;
+                                                &lt;td&gt;Red/Green/Blue (620-625/530-535/470-475 nm)&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                                &lt;td width="50%"&gt;&lt;strong&gt;Chip Material&lt;/strong&gt;&lt;/td&gt;
+                                                &lt;td&gt;AlGaInP/InGaN/InGaN&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                                &lt;td width="50%"&gt;&lt;strong&gt;Luminous Intensity&lt;/strong&gt;&lt;/td&gt;
+                                                &lt;td&gt;57-112/225-450/36-72 mcd&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                                &lt;td width="50%"&gt;&lt;strong&gt;Viewing Angle&lt;/strong&gt;&lt;/td&gt;
+                                                &lt;td&gt;120 deg&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                                &lt;td width="50%"&gt;&lt;strong&gt;Lens Type-Color&lt;/strong&gt;&lt;/td&gt;
+                                                &lt;td&gt;Water Clear&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                                &lt;td width="50%"&gt;&lt;strong&gt;Forward Voltage&lt;/strong&gt;&lt;/td&gt;
+                                                &lt;td&gt;2.0/3.5/3.5 V&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                                &lt;td width="50%"&gt;&lt;strong&gt;Forward Current&lt;/strong&gt;&lt;/td&gt;
+                                                &lt;td&gt;10 mA&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                                &lt;td width="50%"&gt;&lt;strong&gt;Maximum Forward Voltage&lt;/strong&gt;&lt;/td&gt;
+                                                &lt;td&gt;2.4/3.9/3.9 V&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                                &lt;td width="50%"&gt;&lt;strong&gt;Maximum Forward Current&lt;/strong&gt;&lt;/td&gt;
+                                                &lt;td&gt;25/25/25 mA&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                                &lt;td width="50%"&gt;&lt;strong&gt;Min-Max Operating Temperature&lt;/strong&gt;&lt;/td&gt;
+                                                &lt;td&gt; -40C to +85C&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                                &lt;td width="50%"&gt;&lt;strong&gt;Factory Pack&lt;/strong&gt;&lt;/td&gt;
+                                                &lt;td&gt;2000 pcs-Reel&lt;/td&gt;
+                                        &lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td&gt;&lt;strong&gt;RoHS&lt;/strong&gt;&lt;/td&gt;
+						&lt;td&gt;✓&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+				&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED-RGB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PLCC" package="P-LCC-4-3">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="4"/>
+<connect gate="G$1" pin="BLUE" pad="3"/>
+<connect gate="G$1" pin="GREEN" pad="2"/>
+<connect gate="G$1" pin="RED" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-12986"/>
 </technology>
 </technologies>
 </device>
@@ -13376,192 +13554,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="Testing">
-<packages>
-<package name="P-LCC-4-3">
-<description>&lt;h3&gt;Everlight Red/Green/Blue LED&lt;/h3&gt;
-67-23/R6GHBHC-B01/2T &lt;b&gt;||&lt;/b&gt; 67-23/R6GHBH-B01</description>
-<wire x1="-1.4" y1="-1.75" x2="1.4" y2="-1.75" width="0.2032" layer="51"/>
-<wire x1="1.4" y1="-1.75" x2="1.4" y2="1.75" width="0.2032" layer="51"/>
-<wire x1="1.4" y1="1.75" x2="-1.4" y2="1.75" width="0.2032" layer="51"/>
-<wire x1="-1.4" y1="1.75" x2="-1.4" y2="-1.75" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.1" width="0.2032" layer="51"/>
-<smd name="2" x="-0.725" y="1.7" dx="0.75" dy="1.8" layer="1"/>
-<smd name="1" x="0.725" y="1.7" dx="0.75" dy="1.8" layer="1"/>
-<smd name="4" x="0.725" y="-1.7" dx="0.75" dy="1.8" layer="1"/>
-<smd name="3" x="-0.725" y="-1.7" dx="0.75" dy="1.8" layer="1"/>
-<text x="2.9438" y="-2.4534" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="4.427" y="-2.4518" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<wire x1="-1.4" y1="0.508" x2="-1.4" y2="-0.508" width="0.2032" layer="21"/>
-<wire x1="-0.1016" y1="1.75" x2="0.1016" y2="1.75" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.508" x2="1.4" y2="-0.508" width="0.2032" layer="21"/>
-<wire x1="-0.1016" y1="-1.75" x2="0.1016" y2="-1.75" width="0.2032" layer="21"/>
-<wire x1="1.3598" y1="1.1662" x2="0.8098" y2="1.7162" width="0.2032" layer="51"/>
-<polygon width="0.127" layer="21">
-<vertex x="0" y="0"/>
-<vertex x="0.5588" y="0" curve="90"/>
-<vertex x="0" y="0.5588"/>
-</polygon>
-<circle x="0" y="0" radius="0.55764375" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LED-RGB">
-<description>67-23/R6GHBHC-B01/2T</description>
-<wire x1="6.35" y1="1.778" x2="5.08" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-0.254" x2="3.81" y2="1.778" width="0.254" layer="94"/>
-<wire x1="6.35" y1="-0.254" x2="5.08" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-0.254" x2="3.81" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="6.35" y1="1.778" x2="3.81" y2="1.778" width="0.254" layer="94"/>
-<wire x1="3.048" y1="1.524" x2="2.159" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.762" x2="2.921" y2="-0.127" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="1.778" x2="0" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.254" x2="-1.27" y2="1.778" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-0.254" x2="0" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.254" x2="-1.27" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.778" x2="-1.27" y2="1.778" width="0.254" layer="94"/>
-<wire x1="-2.032" y1="1.524" x2="-2.921" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="0.762" x2="-2.159" y2="-0.127" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="1.778" x2="-5.08" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-0.254" x2="-6.35" y2="1.778" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-0.254" x2="-5.08" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-0.254" x2="-6.35" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="1.778" x2="-6.35" y2="1.778" width="0.254" layer="94"/>
-<wire x1="-7.112" y1="1.524" x2="-8.001" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="0.762" x2="-7.239" y2="-0.127" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.1524" layer="94"/>
-<circle x="-5.08" y="2.54" radius="0.1796" width="0.254" layer="94"/>
-<circle x="0" y="2.54" radius="0.1796" width="0.254" layer="94"/>
-<text x="-2.54" y="3.302" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="5.461" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<pin name="RED" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="GREEN" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="BLUE" x="-5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="ANODE" x="-5.08" y="5.08" visible="off" length="middle" direction="pas" rot="R270"/>
-<polygon width="0.1524" layer="94">
-<vertex x="2.032" y="1.016"/>
-<vertex x="1.778" y="0.254"/>
-<vertex x="2.54" y="0.508"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="2.794" y="0.254"/>
-<vertex x="2.54" y="-0.508"/>
-<vertex x="3.302" y="-0.254"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.048" y="1.016"/>
-<vertex x="-3.302" y="0.254"/>
-<vertex x="-2.54" y="0.508"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-2.286" y="0.254"/>
-<vertex x="-2.54" y="-0.508"/>
-<vertex x="-1.778" y="-0.254"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-8.128" y="1.016"/>
-<vertex x="-8.382" y="0.254"/>
-<vertex x="-7.62" y="0.508"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-7.366" y="0.254"/>
-<vertex x="-7.62" y="-0.508"/>
-<vertex x="-6.858" y="-0.254"/>
-</polygon>
-<text x="-7.747" y="-0.762" size="0.8128" layer="96" font="vector" rot="R270">BLUE</text>
-<text x="-2.667" y="-0.762" size="0.8128" layer="96" font="vector" rot="R270">GREEN</text>
-<text x="2.413" y="-0.762" size="0.8128" layer="96" font="vector" rot="R270">RED</text>
-<text x="-5.461" y="2.794" size="0.8128" layer="96" font="vector" rot="R90">CA</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="0.13_RGB_LED" prefix="D" uservalue="yes">
-<description>&lt;h3&gt;Everlight Red/Green/Blue LED&lt;/h3&gt;
-67-23/R6GHBHC-B01/2T &lt;b&gt;||&lt;/b&gt; 67-23/R6GHBH-B01&lt;br /&gt;
-&lt;table width="100%"&gt;
-				&lt;tbody&gt;
-					&lt;tr&gt;
-						&lt;td width="50%"&gt;&lt;strong&gt;Size&lt;/strong&gt;&lt;/td&gt;
-						&lt;td&gt;3.2*2.8*1.9mm&lt;/td&gt;
-					&lt;/tr&gt;
-                                        &lt;tr&gt;
-                                                &lt;td width="50%"&gt;&lt;strong&gt;Mounting Type&lt;/strong&gt;&lt;/td&gt;
-                                                &lt;td&gt;SMD Full-Color LED PLCC4&lt;/td&gt;
-                                        &lt;/tr&gt;
-                                        &lt;tr&gt;
-                                                &lt;td width="50%"&gt;&lt;strong&gt;Emitting Color&lt;/strong&gt;&lt;/td&gt;
-                                                &lt;td&gt;Red/Green/Blue (620-625/530-535/470-475 nm)&lt;/td&gt;
-                                        &lt;/tr&gt;
-                                        &lt;tr&gt;
-                                                &lt;td width="50%"&gt;&lt;strong&gt;Chip Material&lt;/strong&gt;&lt;/td&gt;
-                                                &lt;td&gt;AlGaInP/InGaN/InGaN&lt;/td&gt;
-                                        &lt;/tr&gt;
-                                        &lt;tr&gt;
-                                                &lt;td width="50%"&gt;&lt;strong&gt;Luminous Intensity&lt;/strong&gt;&lt;/td&gt;
-                                                &lt;td&gt;57-112/225-450/36-72 mcd&lt;/td&gt;
-                                        &lt;/tr&gt;
-                                        &lt;tr&gt;
-                                                &lt;td width="50%"&gt;&lt;strong&gt;Viewing Angle&lt;/strong&gt;&lt;/td&gt;
-                                                &lt;td&gt;120 deg&lt;/td&gt;
-                                        &lt;/tr&gt;
-                                        &lt;tr&gt;
-                                                &lt;td width="50%"&gt;&lt;strong&gt;Lens Type-Color&lt;/strong&gt;&lt;/td&gt;
-                                                &lt;td&gt;Water Clear&lt;/td&gt;
-                                        &lt;/tr&gt;
-                                        &lt;tr&gt;
-                                                &lt;td width="50%"&gt;&lt;strong&gt;Forward Voltage&lt;/strong&gt;&lt;/td&gt;
-                                                &lt;td&gt;2.0/3.5/3.5 V&lt;/td&gt;
-                                        &lt;/tr&gt;
-                                        &lt;tr&gt;
-                                                &lt;td width="50%"&gt;&lt;strong&gt;Forward Current&lt;/strong&gt;&lt;/td&gt;
-                                                &lt;td&gt;10 mA&lt;/td&gt;
-                                        &lt;/tr&gt;
-                                        &lt;tr&gt;
-                                                &lt;td width="50%"&gt;&lt;strong&gt;Maximum Forward Voltage&lt;/strong&gt;&lt;/td&gt;
-                                                &lt;td&gt;2.4/3.9/3.9 V&lt;/td&gt;
-                                        &lt;/tr&gt;
-                                        &lt;tr&gt;
-                                                &lt;td width="50%"&gt;&lt;strong&gt;Maximum Forward Current&lt;/strong&gt;&lt;/td&gt;
-                                                &lt;td&gt;25/25/25 mA&lt;/td&gt;
-                                        &lt;/tr&gt;
-                                        &lt;tr&gt;
-                                                &lt;td width="50%"&gt;&lt;strong&gt;Min-Max Operating Temperature&lt;/strong&gt;&lt;/td&gt;
-                                                &lt;td&gt; -40C to +85C&lt;/td&gt;
-                                        &lt;/tr&gt;
-                                        &lt;tr&gt;
-                                                &lt;td width="50%"&gt;&lt;strong&gt;Factory Pack&lt;/strong&gt;&lt;/td&gt;
-                                                &lt;td&gt;2000 pcs-Reel&lt;/td&gt;
-                                        &lt;/tr&gt;
-					&lt;tr&gt;
-						&lt;td&gt;&lt;strong&gt;RoHS&lt;/strong&gt;&lt;/td&gt;
-						&lt;td&gt;✓&lt;/td&gt;
-					&lt;/tr&gt;
-				&lt;/tbody&gt;
-				&lt;/table&gt;</description>
-<gates>
-<gate name="G$1" symbol="LED-RGB" x="0" y="0"/>
-</gates>
-<devices>
-<device name="PLCC" package="P-LCC-4-3">
-<connects>
-<connect gate="G$1" pin="ANODE" pad="4"/>
-<connect gate="G$1" pin="BLUE" pad="3"/>
-<connect gate="G$1" pin="GREEN" pad="2"/>
-<connect gate="G$1" pin="RED" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-12986"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 <attribute name="DESIGNER" value="Quin from Qtechknow"/>
@@ -13658,13 +13650,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND22" library="SFE Aesthetics" deviceset="GND" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
-<part name="D2" library="Testing" deviceset="0.13_RGB_LED" device="PLCC">
+<part name="D2" library="SparkFun-LED" deviceset="0.13_RGB_LED" device="PLCC">
 <attribute name="PROD_ID" value="DIO-12986"/>
 </part>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="D3" library="Testing" deviceset="0.13_RGB_LED" device="PLCC">
-<attribute name="PROD_ID" value="DIO-12985"/>
-</part>
+<part name="D3" library="SparkFun-LED" deviceset="0.13_RGB_LED" device="PLCC"/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="1KΩ">
 <attribute name="PROD_ID" value="RES-12985"/>
