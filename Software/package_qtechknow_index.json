@@ -14,7 +14,7 @@
                "architecture":"avr",
                "version":"1.0.0",
                "category":"Qtechknow",
-               "url":"https://github.com/sparkfun/Qduino_Mini/raw/master/Firmware/qduinomini.tar.bz2",
+               "url":"https://github.com/sparkfun/Qduino_Mini/raw/master/Software/qduinomini.tar.bz2",
                "archiveFileName":"qduinomini.tar.bz2",
                "checksum":"SHA-256:74c32efbc4b9d845d1a7c1246eb820cf43df4e606f0e169a2a60f55ddc4469d8",
                "size":"24912",
