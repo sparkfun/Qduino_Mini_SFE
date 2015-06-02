@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -13618,7 +13618,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U4" library="SparkFun-PowerIC" deviceset="LDO-TPS78233" device="" value="AP2112K-3.3TRG-1">
-<attribute name="PROD_ID" value="IC-12550"/>
+<attribute name="PROD_ID" value="VREG-12457"/>
 </part>
 <part name="C7" library="SparkFun-Capacitors" deviceset="2.2UF-10V-20%(0603)" device="" value="2.2uF"/>
 <part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF">
