@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -14333,7 +14333,7 @@ Circuit</text>
 <label x="30.48" y="33.02" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="RS!T" class="0">
+<net name="LIPO" class="0">
 <segment>
 <wire x1="48.26" y1="-38.1" x2="50.8" y2="-38.1" width="0.1524" layer="91"/>
 <label x="50.8" y="-38.1" size="1.27" layer="95" xref="yes"/>
