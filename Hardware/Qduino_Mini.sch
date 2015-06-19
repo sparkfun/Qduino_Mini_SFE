@@ -14276,7 +14276,7 @@ Circuit</text>
 <pinref part="JP4" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="TXLED" class="0">
+<net name="RXLED" class="0">
 <segment>
 <wire x1="-33.02" y1="43.18" x2="-35.56" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="PB0(SS)"/>
@@ -14288,7 +14288,7 @@ Circuit</text>
 <label x="38.1" y="33.02" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="RXLED" class="0">
+<net name="TXLED" class="0">
 <segment>
 <wire x1="-35.56" y1="30.48" x2="-33.02" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="PD5"/>
