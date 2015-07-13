@@ -8,9 +8,9 @@
 qduinomini.name=Qduino Mini
 qduinomini.build.board=AVR_QDUINOMINI
 qduinomini.build.vid.0=0x1B4F
-qduinomini.build.pid.0=0x9203
+qduinomini.build.pid.0=0x514D
 qduinomini.build.vid.1=0x1B4F
-qduinomini.build.pid.1=0x9204
+qduinomini.build.pid.1=0x516D
 
 qduinomini.upload.tool=arduino:avrdude
 qduinomini.upload.protocol=avr109
