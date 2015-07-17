@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.1">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -13571,7 +13571,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <parts>
 <part name="GND2" library="SFE Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SFE Aesthetics" deviceset="GND" device=""/>
-<part name="D4" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN">
+<part name="D4" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="POWER">
 <attribute name="PROD_ID" value="DIO-00821"/>
 </part>
 <part name="P+4" library="SFE Aesthetics" deviceset="VCC" device=""/>
@@ -13726,6 +13726,9 @@ Circuit</text>
 <wire x1="12.7" y1="78.74" x2="12.7" y2="20.32" width="0.4064" layer="97" style="shortdash"/>
 <text x="62.23" y="-43.18" size="2.54" layer="94" ratio="5">Revised by: Brent Wilkins</text>
 <text x="132.08" y="83.82" size="1.778" layer="97" font="vector" align="center">I2C ADDRESS = 0x36</text>
+<text x="53.34" y="60.96" size="1.778" layer="97" font="vector">USER</text>
+<text x="27.94" y="60.96" size="1.778" layer="97" font="vector">STAT</text>
+<text x="15.24" y="22.86" size="1.27" layer="97" font="vector">GREEN LED LIT WHEN CHARGING</text>
 </plain>
 <instances>
 <instance part="GND2" gate="1" x="-5.08" y="-40.64"/>

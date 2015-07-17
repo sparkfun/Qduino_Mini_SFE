@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.1">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -2121,7 +2121,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="D4" library="SparkFun-LED" package="LED-0603" value="GREEN" x="10.16" y="25.4" rot="R90">
+<element name="D4" library="SparkFun-LED" package="LED-0603" value="POWER" x="10.16" y="25.4" rot="R90">
 <attribute name="PROD_ID" value="DIO-00821" x="10.16" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U2" library="SparkFun" package="SOT23-5" value="MCP73831" x="5.715" y="10.16" rot="R270">
