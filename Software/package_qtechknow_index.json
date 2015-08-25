@@ -12,12 +12,12 @@
             {
                "name":"Qtechknow Boards",
                "architecture":"avr",
-               "version":"1.0.5",
+               "version":"1.0.6",
                "category":"Qtechknow",
                "url":"https://github.com/sparkfun/Qduino_Mini/raw/master/Software/qduinomini.1.0.5.tar.bz2",
-               "archiveFileName":"qduinomini.tar.bz2",
-               "checksum":"SHA-256:59b51cbbe31f2d15fb6577d8a6f461f143f208ee985083f4e9d358a960c01c6b",
-               "size":"2465731",
+               "archiveFileName":"qduinomini.1.0.6.tar.bz2",
+               "checksum":"SHA-256:076bcb931e489798b46712705ce9d3fd884fdb78385869d866561c1bc7fb2f1e",
+               "size":"2496440",
                "help":{
                   "online":"https://forums.sparkfun.com"
                },
