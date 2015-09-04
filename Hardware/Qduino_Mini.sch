@@ -13557,7 +13557,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </libraries>
 <attributes>
 <attribute name="DESIGNER" value="Quin from Qtechknow"/>
-<attribute name="VERSION" value="v10"/>
+<attribute name="VERSION" value="v11"/>
 </attributes>
 <variantdefs>
 </variantdefs>
