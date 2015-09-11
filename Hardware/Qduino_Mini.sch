@@ -1883,15 +1883,16 @@ Pasted was reduced by 20% width on the main pads, and a similar amount on the ce
 <wire x1="-1" y1="-1" x2="-1" y2="1" width="0.127" layer="51"/>
 <text x="-0.8128" y="1.524" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.0668" y="-1.905" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.875" y1="-1.3375" x2="-0.625" y2="-0.6375" layer="31"/>
-<rectangle x1="-0.375" y1="0.6375" x2="-0.125" y2="1.3375" layer="31"/>
-<rectangle x1="-0.875" y1="0.6375" x2="-0.625" y2="1.3375" layer="31"/>
-<rectangle x1="0.125" y1="0.6375" x2="0.375" y2="1.3375" layer="31"/>
-<rectangle x1="0.625" y1="0.6375" x2="0.875" y2="1.3375" layer="31"/>
-<rectangle x1="-0.375" y1="-1.3375" x2="-0.125" y2="-0.6375" layer="31"/>
-<rectangle x1="0.125" y1="-1.3375" x2="0.375" y2="-0.6375" layer="31"/>
-<rectangle x1="0.625" y1="-1.3375" x2="0.875" y2="-0.6375" layer="31"/>
-<rectangle x1="-0.6625" y1="-0.4" x2="0.6625" y2="0.4" layer="31"/>
+<rectangle x1="-0.875" y1="-1.3375" x2="-0.625" y2="-0.7" layer="31"/>
+<rectangle x1="-0.375" y1="0.7" x2="-0.125" y2="1.3375" layer="31"/>
+<rectangle x1="-0.875" y1="0.7" x2="-0.625" y2="1.3375" layer="31"/>
+<rectangle x1="0.125" y1="0.7" x2="0.375" y2="1.3375" layer="31"/>
+<rectangle x1="0.625" y1="0.7" x2="0.875" y2="1.3375" layer="31"/>
+<rectangle x1="-0.375" y1="-1.3375" x2="-0.125" y2="-0.7" layer="31"/>
+<rectangle x1="0.125" y1="-1.3375" x2="0.375" y2="-0.7" layer="31"/>
+<rectangle x1="0.625" y1="-1.3375" x2="0.875" y2="-0.7" layer="31"/>
+<rectangle x1="0.09" y1="-0.32" x2="0.59" y2="0.32" layer="31"/>
+<rectangle x1="-0.59" y1="-0.32" x2="-0.09" y2="0.32" layer="31"/>
 </package>
 </packages>
 <symbols>
