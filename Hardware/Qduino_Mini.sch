@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -13598,7 +13598,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </libraries>
 <attributes>
 <attribute name="DESIGNER" value="Quin from Qtechknow"/>
-<attribute name="VERSION" value="v12"/>
+<attribute name="VERSION" value="v13"/>
 </attributes>
 <variantdefs>
 </variantdefs>
