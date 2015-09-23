@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -48,7 +48,7 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -216,6 +216,9 @@
 <text x="6.35" y="12.0396" size="0.8128" layer="22" font="vector" ratio="16" rot="SMR0" align="bottom-center">SJ1</text>
 <text x="9.2964" y="36.1696" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">ON</text>
 <text x="5.9436" y="33.9344" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">PWR</text>
+<rectangle x1="4.2926" y1="13.4239" x2="5.8547" y2="13.8176" layer="41"/>
+<rectangle x1="4.2926" y1="14.732" x2="4.4069" y2="15.1511" layer="41"/>
+<rectangle x1="4.3815" y1="15.9639" x2="5.8547" y2="16.0401" layer="41"/>
 </plain>
 <libraries>
 <library name="SparkFun-Passives">
