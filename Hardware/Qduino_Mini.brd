@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -36,9 +36,9 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -482,18 +482,18 @@ We've spent an enormous amount of time creating and checking these footprints an
 <rectangle x1="-2.57175" y1="-3.6957" x2="-2.34315" y2="-3.1496" layer="31" rot="R180"/>
 </package>
 <package name="DFN-8">
-<description>Now follows http://pdfserv.maximintegrated.com/land_patterns/90-0065.PDF
-Pasted was reduced by 20% width on the main pads, and a similar amount on the center pads.</description>
+<description>Now follows http://pdfserv.maximintegrated.com/land_patterns/90-0065.PDF&lt;br /&gt;
+Pasted was reduced by 40% width on the center ground pad, and some amount on the other 8.  Stop mask extends 135 µm wider than the pad to hit dead center of what IPC-7351 recommends.</description>
 <circle x="-1.0628" y="-0.92" radius="0.070709375" width="0.127" layer="21"/>
-<smd name="P$1" x="-0.75" y="-0.99" dx="0.7" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="P$2" x="-0.25" y="-0.99" dx="0.7" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="P$3" x="0.25" y="-0.99" dx="0.7" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="P$4" x="0.75" y="-0.99" dx="0.7" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="P$5" x="0.75" y="0.99" dx="0.7" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="P$6" x="0.25" y="0.99" dx="0.7" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="P$7" x="-0.25" y="0.99" dx="0.7" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="P$8" x="-0.75" y="0.99" dx="0.7" dy="0.3" layer="1" rot="R90" cream="no"/>
-<smd name="P$9" x="0" y="0" dx="1.38" dy="0.8" layer="1" cream="no"/>
+<smd name="P$1" x="-0.75" y="-0.99" dx="0.7" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="P$2" x="-0.25" y="-0.99" dx="0.7" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="P$3" x="0.25" y="-0.99" dx="0.7" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="P$4" x="0.75" y="-0.99" dx="0.7" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="P$5" x="0.75" y="0.99" dx="0.7" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="P$6" x="0.25" y="0.99" dx="0.7" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="P$7" x="-0.25" y="0.99" dx="0.7" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="P$8" x="-0.75" y="0.99" dx="0.7" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="P$9" x="0" y="0" dx="1.38" dy="0.8" layer="1" stop="no" cream="no"/>
 <text x="-0.8128" y="1.524" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.0668" y="-1.905" size="0.4064" layer="27">&gt;VALUE</text>
 <circle x="-1.0628" y="-0.92" radius="0.070709375" width="0.127" layer="21"/>
@@ -503,15 +503,25 @@ Pasted was reduced by 20% width on the main pads, and a similar amount on the ce
 <wire x1="-1" y1="-1" x2="-1" y2="1" width="0.127" layer="51"/>
 <text x="-0.8128" y="1.524" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.0668" y="-1.905" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.875" y1="-1.3375" x2="-0.625" y2="-0.6375" layer="31"/>
-<rectangle x1="-0.375" y1="0.6375" x2="-0.125" y2="1.3375" layer="31"/>
-<rectangle x1="-0.875" y1="0.6375" x2="-0.625" y2="1.3375" layer="31"/>
-<rectangle x1="0.125" y1="0.6375" x2="0.375" y2="1.3375" layer="31"/>
-<rectangle x1="0.625" y1="0.6375" x2="0.875" y2="1.3375" layer="31"/>
-<rectangle x1="-0.375" y1="-1.3375" x2="-0.125" y2="-0.6375" layer="31"/>
-<rectangle x1="0.125" y1="-1.3375" x2="0.375" y2="-0.6375" layer="31"/>
-<rectangle x1="0.625" y1="-1.3375" x2="0.875" y2="-0.6375" layer="31"/>
-<rectangle x1="-0.6625" y1="-0.4" x2="0.6625" y2="0.4" layer="31"/>
+<rectangle x1="-0.875" y1="-1.3375" x2="-0.625" y2="-0.7" layer="31"/>
+<rectangle x1="-0.375" y1="0.7" x2="-0.125" y2="1.3375" layer="31"/>
+<rectangle x1="-0.875" y1="0.7" x2="-0.625" y2="1.3375" layer="31"/>
+<rectangle x1="0.125" y1="0.7" x2="0.375" y2="1.3375" layer="31"/>
+<rectangle x1="0.625" y1="0.7" x2="0.875" y2="1.3375" layer="31"/>
+<rectangle x1="-0.375" y1="-1.3375" x2="-0.125" y2="-0.7" layer="31"/>
+<rectangle x1="0.125" y1="-1.3375" x2="0.375" y2="-0.7" layer="31"/>
+<rectangle x1="0.625" y1="-1.3375" x2="0.875" y2="-0.7" layer="31"/>
+<rectangle x1="0.09" y1="-0.32" x2="0.59" y2="0.32" layer="31"/>
+<rectangle x1="-0.59" y1="-0.32" x2="-0.09" y2="0.32" layer="31"/>
+<rectangle x1="-0.97" y1="0.57" x2="-0.53" y2="1.41" layer="29"/>
+<rectangle x1="-0.47" y1="0.57" x2="-0.03" y2="1.41" layer="29"/>
+<rectangle x1="0.03" y1="0.57" x2="0.47" y2="1.41" layer="29"/>
+<rectangle x1="0.53" y1="0.57" x2="0.97" y2="1.41" layer="29"/>
+<rectangle x1="0.53" y1="-1.43" x2="0.97" y2="-0.59" layer="29"/>
+<rectangle x1="0.03" y1="-1.43" x2="0.47" y2="-0.59" layer="29"/>
+<rectangle x1="-0.47" y1="-1.43" x2="-0.03" y2="-0.59" layer="29"/>
+<rectangle x1="-0.97" y1="-1.43" x2="-0.53" y2="-0.59" layer="29"/>
+<rectangle x1="-0.76" y1="-0.47" x2="0.76" y2="0.47" layer="29"/>
 </package>
 </packages>
 </library>
@@ -2998,7 +3008,6 @@ design rules under a new name.</description>
 <wire x1="4.572" y1="30.353" x2="7.874" y2="30.353" width="0.254" layer="16"/>
 <wire x1="7.874" y1="30.353" x2="9.652" y2="32.131" width="0.254" layer="16"/>
 <wire x1="9.652" y1="32.131" x2="11.6586" y2="34.1376" width="0.254" layer="16"/>
-<wire x1="15.7734" y1="34.5186" x2="15.494" y2="34.798" width="0.254" layer="1"/>
 <via x="11.6586" y="34.1376" extent="1-16" drill="0.381"/>
 <wire x1="15.494" y1="34.798" x2="12.319" y2="34.798" width="0.254" layer="1"/>
 <wire x1="12.319" y1="34.798" x2="11.6586" y2="34.1376" width="0.254" layer="1"/>
@@ -3009,12 +3018,12 @@ design rules under a new name.</description>
 <wire x1="10.287" y1="31.496" x2="9.652" y2="32.131" width="0.254" layer="16"/>
 <wire x1="10.287" y1="31.496" x2="13.589" y2="31.496" width="0.254" layer="16"/>
 <wire x1="13.589" y1="31.496" x2="15.494" y2="29.591" width="0.254" layer="16"/>
-<wire x1="15.7734" y1="34.5186" x2="15.7734" y2="33.5166" width="0.2032" layer="1"/>
-<wire x1="15.7734" y1="33.5166" x2="15.915" y2="33.375" width="0.2032" layer="1"/>
 <wire x1="3.302" y1="20.574" x2="1.778" y2="19.05" width="0.254" layer="16"/>
 <wire x1="1.778" y1="19.05" x2="1.27" y2="19.05" width="0.254" layer="16"/>
 <wire x1="15.494" y1="29.591" x2="15.494" y2="28.829" width="0.2032" layer="16"/>
 <wire x1="10.16" y1="9.8688" x2="9.31" y2="10.7188" width="0.254" layer="1"/>
+<wire x1="15.494" y1="34.798" x2="15.915" y2="34.377" width="0.254" layer="1"/>
+<wire x1="15.915" y1="34.377" x2="15.915" y2="33.375" width="0.254" layer="1"/>
 </signal>
 <signal name="!ALRT">
 <contactref element="U3" pad="P$5"/>
@@ -3311,6 +3320,9 @@ design rules under a new name.</description>
 <wire x1="11.635" y1="27.5325" x2="11.635" y2="26.5758" width="0.2032" layer="1"/>
 <wire x1="12.135" y1="25.39" x2="12.135" y2="26.0758" width="0.2032" layer="1"/>
 <wire x1="12.135" y1="26.0758" x2="11.635" y2="26.5758" width="0.2032" layer="1"/>
+</signal>
+<signal name="N$5">
+<wire x1="13.97" y1="32.893" x2="13.97" y2="32.639" width="0.2032" layer="1"/>
 </signal>
 </signals>
 <errors>
@@ -4058,9 +4070,26 @@ design rules under a new name.</description>
 <approved hash="7,39,58ef4b3b756dc04b"/>
 <approved hash="7,39,993d38bf84a33da1"/>
 <approved hash="7,39,50f5bf66fee69074"/>
+<approved hash="18,29,64ac406a38e510c9"/>
+<approved hash="18,29,015764fb16747f32"/>
+<approved hash="4,2,bdf5e7499f934e49"/>
+<approved hash="4,3,bdf5e7499f934e49"/>
+<approved hash="4,4,bdf5e7499f934e49"/>
+<approved hash="4,5,bdf5e7499f934e49"/>
+<approved hash="4,6,bdf5e7499f934e49"/>
+<approved hash="4,7,bdf5e7499f934e49"/>
+<approved hash="4,8,bdf5e7499f934e49"/>
+<approved hash="4,9,bdf5e7499f934e49"/>
+<approved hash="4,10,bdf5e7499f934e49"/>
+<approved hash="4,11,bdf5e7499f934e49"/>
+<approved hash="4,12,bdf5e7499f934e49"/>
+<approved hash="4,13,bdf5e7499f934e49"/>
+<approved hash="4,14,bdf5e7499f934e49"/>
 <approved hash="18,29,99c20e3130d8476e"/>
-<approved hash="18,29,f4ce3c68fc6b34cd"/>
 <approved hash="18,29,b2a47a5e3a5df2a7"/>
+<approved hash="18,29,f4ce3c68fc6b34cd"/>
+<approved hash="18,29,ed3204a498ee8d88"/>
+<approved hash="18,29,ed3204a498ee8d88"/>
 <approved hash="18,29,85f9032828f16078"/>
 <approved hash="18,29,9bfcd35a935edbf8"/>
 <approved hash="18,29,5d17154cd5489d13"/>
@@ -4074,15 +4103,17 @@ design rules under a new name.</description>
 <approved hash="18,29,9e975ac1a71bfab9"/>
 <approved hash="18,29,e1522091533f6a75"/>
 <approved hash="18,29,e858511122b66376"/>
-<approved hash="18,29,64ac406a38e510c9"/>
-<approved hash="18,29,c1f4eba2931db211"/>
+<approved hash="18,29,f639b1b313b676fa"/>
+<approved hash="18,29,24bd804b7fc6d62a"/>
 <approved hash="18,29,fa6224e9a4e97a62"/>
+<approved hash="18,29,c1f4eba2931db211"/>
 <approved hash="18,29,bc38ff790f793632"/>
 <approved hash="18,29,34d00d9bfa44b905"/>
+<approved hash="18,29,c7b423d8d6553f23"/>
 <approved hash="18,29,a38fcf03bdbcda6a"/>
-<approved hash="18,29,015764fb16747f32"/>
 <approved hash="18,29,c2c086b3f5a6d3db"/>
 <approved hash="18,29,e7a0ceab4eab67a0"/>
+<approved hash="18,29,f55491a311a5d794"/>
 <approved hash="18,29,45956f1def1dc595"/>
 <approved hash="18,29,be6440cdb8d74c3a"/>
 <approved hash="18,29,2f53595bd95baf53"/>
@@ -4098,24 +4129,13 @@ design rules under a new name.</description>
 <approved hash="18,29,a203c48b448b2203"/>
 <approved hash="18,29,32a9f6dae5cfc3b3"/>
 <approved hash="18,29,95c1bec93ec915c1"/>
-<approved hash="4,2,bdf5e7499f934e49"/>
-<approved hash="4,3,bdf5e7499f934e49"/>
-<approved hash="4,4,bdf5e7499f934e49"/>
-<approved hash="4,5,bdf5e7499f934e49"/>
-<approved hash="4,6,bdf5e7499f934e49"/>
-<approved hash="4,7,bdf5e7499f934e49"/>
-<approved hash="4,8,bdf5e7499f934e49"/>
-<approved hash="4,9,bdf5e7499f934e49"/>
-<approved hash="4,10,bdf5e7499f934e49"/>
-<approved hash="4,11,bdf5e7499f934e49"/>
-<approved hash="4,12,bdf5e7499f934e49"/>
-<approved hash="4,13,bdf5e7499f934e49"/>
-<approved hash="4,14,bdf5e7499f934e49"/>
 <approved hash="4,1,f709c22ebadd4b33"/>
 <approved hash="4,1,f906100dd3fe0634"/>
 <approved hash="19,1,47051f2d1c3a4412"/>
 <approved hash="4,1,8388f2ed2c5f4663"/>
+<approved hash="19,1,148cedef0e5b09c4"/>
 <approved hash="4,1,4f545b386b5f5b2f"/>
+<approved hash="4,1,180e3c2a259410ec"/>
 <approved hash="19,1,908088a8973c8f14"/>
 <approved hash="19,16,f873b203aeab9dbf"/>
 <approved hash="19,16,dac0ed30537e1b60"/>
