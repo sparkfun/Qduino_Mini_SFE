@@ -13706,6 +13706,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SJ1" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_TRACE" device="_SMALL" value=""/>
 <part name="R8" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="P+3" library="SFE Aesthetics" deviceset="VCC" device=""/>
+<part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13884,6 +13885,7 @@ Circuit</text>
 <instance part="SJ1" gate="G$1" x="55.88" y="101.6" rot="R270"/>
 <instance part="R8" gate="G$1" x="-73.66" y="109.22" rot="R90"/>
 <instance part="P+3" gate="1" x="-73.66" y="116.84"/>
+<instance part="SUPPLY2" gate="G$1" x="25.4" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -14462,6 +14464,11 @@ Circuit</text>
 <pinref part="P+3" gate="1" pin="VCC"/>
 <wire x1="-73.66" y1="116.84" x2="-73.66" y2="114.3" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="D2" gate="G$1" pin="ANODE"/>
+<wire x1="25.4" y1="58.42" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
+</segment>
 </net>
 <net name="UD-" class="0">
 <segment>
@@ -14527,12 +14534,6 @@ Circuit</text>
 <wire x1="-73.66" y1="-17.78" x2="-71.12" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-73.66" y="-17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JP4" gate="G$1" pin="8"/>
-</segment>
-<segment>
-<wire x1="22.86" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="ANODE"/>
-<wire x1="25.4" y1="58.42" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
-<label x="22.86" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!ALRT" class="0">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.3">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -2905,7 +2905,17 @@ design rules under a new name.</description>
 <wire x1="7.1374" y1="18.542" x2="6.6802" y2="18.542" width="0.1524" layer="1"/>
 <wire x1="5.638796875" y1="18.3896" x2="4.588840625" y2="19.43955625" width="0.1524" layer="1"/>
 <wire x1="8.685" y1="28.9825" x2="10.1346" y2="28.9825" width="0.2032" layer="1"/>
-<wire x1="10.1346" y1="28.9825" x2="10.414" y2="28.7031" width="0.2032" layer="1"/>
+<wire x1="10.1346" y1="28.9825" x2="10.16055" y2="28.95655" width="0.2032" layer="1"/>
+<contactref element="D2" pad="4"/>
+<wire x1="10.16055" y1="28.95655" x2="10.414" y2="28.7031" width="0.2032" layer="1"/>
+<wire x1="10.16055" y1="28.95655" x2="10.414" y2="29.21" width="0.2032" layer="1"/>
+<wire x1="10.16" y1="28.956" x2="10.16055" y2="28.95655" width="0.2032" layer="1"/>
+<wire x1="12.573" y1="29.845" x2="13.462" y2="28.956" width="0.2032" layer="1"/>
+<wire x1="10.795" y1="29.845" x2="12.573" y2="29.845" width="0.2032" layer="1"/>
+<wire x1="10.414" y1="29.464" x2="10.795" y2="29.845" width="0.2032" layer="1"/>
+<wire x1="10.414" y1="29.21" x2="10.414" y2="29.464" width="0.2032" layer="1"/>
+<wire x1="13.462" y1="28.956" x2="15.0085" y2="28.956" width="0.2032" layer="1"/>
+<wire x1="15.0085" y1="28.956" x2="15.035" y2="28.9825" width="0.2032" layer="1"/>
 </signal>
 <signal name="UD-">
 <contactref element="R3" pad="2"/>
@@ -3003,14 +3013,7 @@ design rules under a new name.</description>
 <wire x1="15.7734" y1="33.5166" x2="15.915" y2="33.375" width="0.2032" layer="1"/>
 <wire x1="3.302" y1="20.574" x2="1.778" y2="19.05" width="0.254" layer="16"/>
 <wire x1="1.778" y1="19.05" x2="1.27" y2="19.05" width="0.254" layer="16"/>
-<contactref element="D2" pad="4"/>
-<wire x1="15.035" y1="28.829" x2="15.035" y2="28.9825" width="0.2032" layer="1"/>
-<via x="16.4084" y="28.4988" extent="1-16" drill="0.381"/>
-<wire x1="15.035" y1="28.829" x2="16.0782" y2="28.829" width="0.2032" layer="1"/>
-<wire x1="16.0782" y1="28.829" x2="16.4084" y2="28.4988" width="0.2032" layer="1"/>
 <wire x1="15.494" y1="29.591" x2="15.494" y2="28.829" width="0.2032" layer="16"/>
-<wire x1="15.494" y1="28.829" x2="16.0782" y2="28.829" width="0.2032" layer="16"/>
-<wire x1="16.0782" y1="28.829" x2="16.4084" y2="28.4988" width="0.2032" layer="16"/>
 <wire x1="10.16" y1="9.8688" x2="9.31" y2="10.7188" width="0.254" layer="1"/>
 </signal>
 <signal name="!ALRT">
