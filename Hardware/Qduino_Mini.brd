@@ -1970,7 +1970,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </libraries>
 <attributes>
 <attribute name="DESIGNER" value="Quin from Qtechknow"/>
-<attribute name="VERSION" value="v13"/>
+<attribute name="VERSION" value="v14"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -2338,20 +2338,15 @@ design rules under a new name.</description>
 <contactref element="U4" pad="2"/>
 <contactref element="U4" pad="4"/>
 <contactref element="R7" pad="1"/>
-<contactref element="JP2" pad="SHIELD3"/>
-<contactref element="JP2" pad="SHIELD1"/>
-<contactref element="JP2" pad="SHIELD2"/>
 <contactref element="JP2" pad="GND1"/>
 <contactref element="Y1" pad="2"/>
 <contactref element="JP3" pad="2"/>
-<wire x1="14.266" y1="36.449" x2="14.615" y2="36.1" width="0.2032" layer="1"/>
 <contactref element="R2" pad="5"/>
 <wire x1="15.9051" y1="9.21" x2="15.555" y2="9.21" width="0.2032" layer="1"/>
 <wire x1="7.108575" y1="16.7479" x2="7.108575" y2="16.760575" width="0.2032" layer="1"/>
 <contactref element="J1" pad="1"/>
 <wire x1="15.875" y1="7.2" x2="15.875" y2="9.1799" width="0.2032" layer="1"/>
 <wire x1="15.875" y1="9.1799" x2="15.9051" y2="9.21" width="0.2032" layer="1"/>
-<wire x1="10.93" y1="36.1" x2="10.93" y2="33.4725" width="0.2032" layer="1"/>
 <wire x1="10.93" y1="33.4725" x2="9.945" y2="32.4875" width="0.2032" layer="1"/>
 <wire x1="9.525" y1="32.4875" x2="9.945" y2="32.4875" width="0.2032" layer="1"/>
 <via x="15.24" y="23.6474" extent="1-16" drill="0.381"/>
@@ -2441,8 +2436,6 @@ design rules under a new name.</description>
 <via x="17.1196" y="5.334" extent="1-16" drill="0.381"/>
 <via x="13.7922" y="4.572" extent="1-16" drill="0.381"/>
 <via x="16.2814" y="11.8364" extent="1-16" drill="0.381"/>
-<via x="10.8712" y="36.1442" extent="1-16" drill="0.254"/>
-<via x="18.288" y="36.1188" extent="1-16" drill="0.254"/>
 <via x="12.7" y="22.9362" extent="1-16" drill="0.381"/>
 <wire x1="5.195" y1="5.36" x2="5.195" y2="5.854" width="0.2032" layer="1"/>
 <wire x1="5.195" y1="5.854" x2="4.9784" y2="6.0706" width="0.2032" layer="1"/>
@@ -2455,6 +2448,9 @@ design rules under a new name.</description>
 <wire x1="4.445" y1="6.35" x2="4.7166" y2="6.0784" width="0.2032" layer="1"/>
 <wire x1="4.7166" y1="6.0784" x2="4.7166" y2="6.0706" width="0.2032" layer="1"/>
 <via x="11.938" y="18.669" extent="1-16" drill="0.381"/>
+<via x="12.1285" y="32.9184" extent="1-16" drill="0.381"/>
+<via x="10.5918" y="34.6964" extent="1-16" drill="0.381"/>
+<via x="12.5476" y="37.3761" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="!RST">
 <contactref element="U1" pad="13"/>
@@ -3327,6 +3323,12 @@ design rules under a new name.</description>
 <signal name="N$5">
 <wire x1="13.97" y1="32.893" x2="13.97" y2="32.639" width="0.2032" layer="1"/>
 </signal>
+<signal name="N$9">
+<via x="18.3134" y="36.1315" extent="1-16" drill="0.254"/>
+</signal>
+<signal name="N$10">
+<via x="10.9093" y="36.1188" extent="1-16" drill="0.254"/>
+</signal>
 </signals>
 <errors>
 <approved hash="7,39,24d3cc4b12c500a4"/>
@@ -4088,6 +4090,8 @@ design rules under a new name.</description>
 <approved hash="4,12,bdf5e7499f934e49"/>
 <approved hash="4,13,bdf5e7499f934e49"/>
 <approved hash="4,14,bdf5e7499f934e49"/>
+<approved hash="19,1,47051f2d1c3a4412"/>
+<approved hash="19,1,908088a8973c8f14"/>
 <approved hash="18,29,99c20e3130d8476e"/>
 <approved hash="18,29,b2a47a5e3a5df2a7"/>
 <approved hash="18,29,f4ce3c68fc6b34cd"/>
@@ -4134,12 +4138,12 @@ design rules under a new name.</description>
 <approved hash="18,29,95c1bec93ec915c1"/>
 <approved hash="4,1,f709c22ebadd4b33"/>
 <approved hash="4,1,f906100dd3fe0634"/>
-<approved hash="19,1,47051f2d1c3a4412"/>
+<approved hash="19,1,b8008a6895fca794"/>
 <approved hash="4,1,8388f2ed2c5f4663"/>
 <approved hash="19,1,148cedef0e5b09c4"/>
 <approved hash="4,1,4f545b386b5f5b2f"/>
 <approved hash="4,1,180e3c2a259410ec"/>
-<approved hash="19,1,908088a8973c8f14"/>
+<approved hash="19,1,0e61964997300f18"/>
 <approved hash="19,16,f873b203aeab9dbf"/>
 <approved hash="19,16,dac0ed30537e1b60"/>
 </errors>

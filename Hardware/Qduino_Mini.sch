@@ -13598,7 +13598,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </libraries>
 <attributes>
 <attribute name="DESIGNER" value="Quin from Qtechknow"/>
-<attribute name="VERSION" value="v13"/>
+<attribute name="VERSION" value="v14"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -13686,7 +13686,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+7" library="SFE Aesthetics" deviceset="VCC" device=""/>
 <part name="GND10" library="SFE Aesthetics" deviceset="GND" device=""/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="USB_MICROB_PLUG" device="CONN-11752"/>
-<part name="GND11" library="SFE Aesthetics" deviceset="GND" device=""/>
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="RESONATOR" device="8MHZ" value="8MHZ"/>
 <part name="GND22" library="SFE Aesthetics" deviceset="GND" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
@@ -13858,7 +13857,6 @@ Circuit</text>
 <instance part="JP2" gate="G$1" x="-5.08" y="0" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-0.254" y="8.128" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="GND11" gate="1" x="-15.24" y="-5.08"/>
 <instance part="Y1" gate="G$1" x="60.96" y="7.62"/>
 <instance part="GND22" gate="1" x="60.96" y="-5.08"/>
 <instance part="LOGO1" gate="G$1" x="-35.56" y="-38.1"/>
@@ -13972,12 +13970,6 @@ Circuit</text>
 <pinref part="U1" gate="G$1" pin="UGND"/>
 <wire x1="-73.66" y1="35.56" x2="-73.66" y2="38.1" width="0.1524" layer="91"/>
 <junction x="-73.66" y="35.56"/>
-</segment>
-<segment>
-<pinref part="JP2" gate="G$1" pin="SHIELD"/>
-<pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="-15.24" y1="-2.54" x2="-15.24" y2="0" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="0" x2="-12.7" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="-7.62" width="0.1524" layer="91"/>
