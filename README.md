@@ -1,4 +1,4 @@
-![Qduino Mini](https://github.com/MightyQ/Qduino_Mini/blob/master/Image/cover.jpg "Image")
+s![Qduino Mini](https://cdn.sparkfun.com//assets/parts/1/0/9/8/7/13614-04b.jpg "Qduino Mini top view")
 
 The Qduino Mini is *perfect* to embed in your electronics projects, it's super small, inexpensive, has a battery connector & charger built-in, & a fuel gauge that can tell you when to charge the battery!
 
