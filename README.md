@@ -13,7 +13,7 @@ The **Qduino Mini is Arduino-compatible & 100% open source, hardware and softwar
 * **Battery Fuel Gauge** - guessing on when your project runs out of juice?  We've got you covered - we have a simple monitor library for your battery so you can remind yourself when it needs a little extra juice.
 * **Ultra small, Ultra thin, Ultra light** - The Qduino Mini itself is 0.8in x 1.5in (2cm x 3.9cm) & 0.18oz (5 grams), perfect for quadcopters, drones or high altitude balloon projects.  Both the Qduino Mini and the batteries (LiPos) used to power the board fit are super compact & thin, just right for embedding in your projects.
 
-######Tech Specs:
+<h4>Tech Specs:</h4>
 
 * **ATmega32U4 Processor** - Arduino Leonardo Compatible
 * 32KB Flash Storage
