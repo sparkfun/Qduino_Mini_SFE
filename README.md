@@ -31,12 +31,14 @@ The **Qduino Mini is Arduino-compatible & 100% open source, hardware and softwar
 
 The Qduino Mini is 100% made in the USA! Every board is made and quality tested at SparkFun Electronics, in Niwot, CO.
 
-
 Documentation
 --------------
-
+* **[Introducing the Qduino Mini!](https://www.sparkfun.com/news/1754)** 
 * **[Hookup Guide](https://www.hackster.io/team-qtechknow/qduino-mini-quickstart-guide-8b2d68)** - Basic hookup guide
 * **[Hackster.io: Projects](https://www.hackster.io/qtechknow)** - Projects using the Qduino.
+* **SparkFun: Projects**
+  * **[DIY Light Sculpture](https://learn.sparkfun.com/tutorials/diy-light-sculpture)**
+  * **[DIY Light-Up Shoes](https://learn.sparkfun.com/tutorials/diy-light-up-shoes)**
 * **[SparkFun Arduino Board Add-on](https://github.com/sparkfun/Arduino_Boards)** - Board Add-on for the Qduino Mini
 * **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets/tree/master/Datasheets/Qduino)** -Graphical Datasheets for various SparkFun products.
 
