@@ -1,4 +1,9 @@
-![Qduino Mini](https://cdn.sparkfun.com//assets/parts/1/0/9/8/7/13614-04b.jpg "Qduino Mini top view")
+Qduino Mini
+========================================
+
+[![Qduino Mini](https://cdn.sparkfun.com//assets/parts/1/0/9/8/7/13614-04b.jpg "Qduino Mini top view")](https://www.sparkfun.com/products/13614)
+
+[*Qduino Mini - Arduino Dev Board (DEV-13614)*](https://www.sparkfun.com/products/13614)
 
 The Qduino Mini is *perfect* to embed in your electronics projects, it's super small, inexpensive, has a battery connector & charger built-in, & a fuel gauge that can tell you when to charge the battery!
 
@@ -25,3 +30,14 @@ The **Qduino Mini is Arduino-compatible & 100% open source, hardware and softwar
 * **MAX17048** LiPo Battery Fuel Gauge
 
 The Qduino Mini is 100% made in the USA! Every board is made and quality tested at SparkFun Electronics, in Niwot, CO.
+
+
+Documentation
+--------------
+
+* **[Hookup Guide](https://www.hackster.io/team-qtechknow/qduino-mini-quickstart-guide-8b2d68)** - Basic hookup guide
+* **[Hackster.io: Projects](https://www.hackster.io/qtechknow)** - Projects using the Qduino.
+* **[SparkFun Arduino Board Add-on](https://github.com/sparkfun/Arduino_Boards)** - Board Add-on for the Qduino Mini
+* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets/tree/master/Datasheets/Qduino)** -Graphical Datasheets for various SparkFun products.
+
+
