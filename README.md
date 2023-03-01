@@ -40,6 +40,7 @@ Documentation
   * **[DIY Light Sculpture](https://learn.sparkfun.com/tutorials/diy-light-sculpture)**
   * **[DIY Light-Up Shoes](https://learn.sparkfun.com/tutorials/diy-light-up-shoes)**
 * **[SparkFun Arduino Board Add-on](https://github.com/sparkfun/Arduino_Boards)** - Board Add-on for the Qduino Mini
+* **[SparkFun Fritzing Part](https://github.com/sparkfun/Fritzing_Parts/blob/main/products/13614_sfe_qtechknow_qduino_mini_arduino_development_board.fzpz)** - Fritzing diagrams for SparkFun products.
 * **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets/tree/master/Datasheets/Qduino)** - Graphical Datasheets for various SparkFun products.
 
 
